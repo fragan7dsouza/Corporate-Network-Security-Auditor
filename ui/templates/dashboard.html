@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Corporate Network Security Auditor - Dashboard</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; background: #f4f6f9; }
+        h1 { color: #333; }
+        table { border-collapse: collapse; width: 100%; background: white; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+        th, td { padding: 10px; border: 1px solid #ccc; text-align: left; }
+        th { background: #222; color: white; }
+        tr:nth-child(even) { background: #f9f9f9; }
+    </style>
+</head>
+<body>
+    <h1>Audit Dashboard</h1>
+    <table>
+        <tr>
+            <th>ID</th>
+            <th>IP</th>
+            <th>Timestamp</th>
+            <th>Open Ports</th>
+            <th>Vulnerabilities</th>
+            <th>Firewall Issues</th>
+            <th>Password Issues</th>
+        </tr>
+        {% for scan in scans %}
+        <tr>
+            <td>{{ scan[0] }}</td>
+            <td>{{ scan[1] }}</td>
+            <td>{{ scan[2] }}</td>
+            <td>{{ scan[3] }}</td>
+            <td>{{ scan[4] }}</td>
+            <td>{{ scan[5] }}</td>
+            <td>{{ scan[6] }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+</body>
+</html>

@@ -1,0 +1,47 @@
+2025-10-05 00:10:44 - INFO - Centralized logging system configured.
+2025-10-05 00:11:00 - INFO - STARTING FULL AUDIT on target IP: 127.0.0.1
+2025-10-05 00:11:00 - INFO - Initiating port scan on 127.0.0.1
+2025-10-05 00:11:10 - INFO - Port scan complete. Open ports: [135, 137, 445]
+2025-10-05 00:11:10 - INFO - Checking vulnerabilities for 127.0.0.1
+2025-10-05 00:11:10 - INFO - Vulnerability check clean on 127.0.0.1.
+2025-10-05 00:11:10 - INFO - Checking firewall rules for 127.0.0.1
+2025-10-05 00:11:10 - WARNING - FIREWALL FINDINGS: 1 issues detected on 127.0.0.1.
+2025-10-05 00:11:10 - INFO - Starting password policy audit.
+2025-10-05 00:11:15 - WARNING - PASSWORD POLICY FINDINGS: Weak password detected.
+2025-10-05 00:11:15 - INFO - Text report successfully saved to: reports\scan_report_127.0.0.1_20251005_001115.txt
+2025-10-05 00:11:15 - ERROR - Failed to generate PDF report: 'latin-1' codec can't encode character '\u2705' in position 749: ordinal not in range(256)
+2025-10-05 00:11:15 - ERROR - Failed to generate PDF report for 127.0.0.1.
+2025-10-05 00:11:15 - INFO - Scan results successfully logged to database for 127.0.0.1.
+2025-10-05 00:11:15 - INFO - FULL AUDIT COMPLETE for 127.0.0.1
+2025-10-05 00:12:52 - INFO - Centralized logging system configured.
+2025-10-05 00:12:57 - INFO - STARTING FULL AUDIT on target IP: 127.0.0.1
+2025-10-05 00:12:57 - INFO - Initiating port scan on 127.0.0.1
+2025-10-05 00:13:05 - INFO - Port scan complete. Open ports: [135, 137, 445]
+2025-10-05 00:13:05 - INFO - Checking vulnerabilities for 127.0.0.1
+2025-10-05 00:13:05 - INFO - Vulnerability check clean on 127.0.0.1.
+2025-10-05 00:13:05 - INFO - Checking firewall rules for 127.0.0.1
+2025-10-05 00:13:05 - WARNING - FIREWALL FINDINGS: 1 issues detected on 127.0.0.1.
+2025-10-05 00:13:05 - INFO - Starting password policy audit.
+2025-10-05 00:13:10 - WARNING - PASSWORD POLICY FINDINGS: Weak password detected.
+2025-10-05 00:13:10 - INFO - Text report successfully saved to: reports\scan_report_127.0.0.1_20251005_001310.txt
+2025-10-05 00:13:10 - INFO - PDF report successfully created: reports\scan_report_127.0.0.1_20251005_001310.pdf
+2025-10-05 00:13:10 - INFO - PDF report successfully created: reports\scan_report_127.0.0.1_20251005_001310.pdf
+2025-10-05 00:13:10 - INFO - Scan results successfully logged to database for 127.0.0.1.
+2025-10-05 00:13:10 - INFO - FULL AUDIT COMPLETE for 127.0.0.1
+2025-10-05 00:13:55 - INFO - Centralized logging system configured.
+2025-10-05 00:41:12 - INFO - Centralized logging system configured.
+2025-10-05 00:41:23 - INFO - STARTING FULL AUDIT on target IP: 127.0.0.1
+2025-10-05 00:41:23 - INFO - Initiating port scan on 127.0.0.1
+2025-10-05 00:41:30 - INFO - Port scan complete. Open ports: [135, 137, 445]
+2025-10-05 00:41:30 - INFO - Checking vulnerabilities for 127.0.0.1
+2025-10-05 00:41:30 - INFO - Vulnerability check clean on 127.0.0.1.
+2025-10-05 00:41:30 - INFO - Checking firewall rules for 127.0.0.1
+2025-10-05 00:41:30 - WARNING - FIREWALL FINDINGS: 1 issues detected on 127.0.0.1.
+2025-10-05 00:41:30 - INFO - Starting password policy audit.
+2025-10-05 00:41:43 - WARNING - PASSWORD POLICY FINDINGS: Weak password detected.
+2025-10-05 00:41:43 - INFO - Text report successfully saved to: reports\scan_report_127.0.0.1_20251005_004143.txt
+2025-10-05 00:41:43 - INFO - PDF report successfully created: reports\scan_report_127.0.0.1_20251005_004143.pdf
+2025-10-05 00:41:43 - INFO - PDF report successfully created: reports\scan_report_127.0.0.1_20251005_004143.pdf
+2025-10-05 00:41:43 - INFO - Scan results successfully logged to database for 127.0.0.1.
+2025-10-05 00:41:43 - INFO - FULL AUDIT COMPLETE for 127.0.0.1
+2025-10-05 00:42:28 - INFO - Centralized logging system configured.

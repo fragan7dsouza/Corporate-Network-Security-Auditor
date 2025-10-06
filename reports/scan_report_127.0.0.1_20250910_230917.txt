@@ -1,0 +1,17 @@
+Security Report for 127.0.0.1
+========================================
+
+Open Ports: [135, 137, 445]
+
+Vulnerabilities:
+- Port 135: MSRPC - Known for Windows exploits.
+- Port 445: SMB - Common ransomware entry point.
+None
+
+Misconfigurations:
+- Port 135: MSRPC (used in Windows exploits)
+- Port 445: SMB (common ransomware entry point)
+None
+
+Password Issues:
+None

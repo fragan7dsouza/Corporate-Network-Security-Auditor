@@ -1,0 +1,14 @@
+{
+    "scan_settings": {
+        "port_range": "1-1024",
+        "default_ip": "127.0.0.1"
+    },
+    "network_sniffer": {
+        "packet_count": 15,
+        "timeout_seconds": 10
+    },
+    "report_settings": {
+        "author": "CNSA Team",
+        "version": "1.0.0"
+    }
+}

@@ -1,0 +1,13 @@
+Security Report for 127.0.0.1
+========================================
+
+Open Ports: [135, 137, 445]
+
+Vulnerabilities:
+None
+
+Firewall Issues:
+None
+
+Password Issues:
+None

@@ -1,0 +1,33 @@
+CNSA/
+├── main.py                    # entry point to launch the tool
+├── scanner/
+│   ├── __init__.py
+│   ├── port_scanner.py        # uses nmap or socket to scan ports
+│   ├── vuln_scanner.py        # check for CVEs or weak services
+│   └── firewall_check.py      # analyze basic firewall rules (static/dummy)
+├── network/
+│   ├── __init__.py
+│   ├── packet_sniffer.py      # scapy sniffing tool (optional for anomaly)
+│   └── traffic_analyzer.py    # analyze network packets (flag suspicious patterns)
+├── auth/
+│   ├── __init__.py
+│   └── password_policy.py     # audit password complexity / security
+├── reports/
+│   ├── __init__.py
+│   ├── pdf_generator.py       # convert results into audit PDF
+│   └── template.html          # HTML version for rendering
+├── ui/
+│   ├── __init__.py
+│   ├── app.py                 # flask app to control modules and view reports
+│   └── templates/
+│       └── dashboard.html     # UI for viewing results
+├── db/
+│   ├── __init__.py
+│   └── database.py            # MongoDB or SQLite integration for storing scans
+├── utils/
+│   ├── __init__.py
+│   └── logger.py              # centralized logging system
+├── config/
+│   └── settings.json          # global config file
+├── requirements.txt
+└── README.md                  # for GitHub, comes last
